@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+  padding: 20px 50px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grow-list {
+  margin-right: auto;
+}
+.line {
+  border: 1px solid #ffffff;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list-item {
+  padding: 0px 30px;
+  font-family: "Poppins";
+}
+
+.button-small {
+  padding: 10px 30px;
+  border: none;
+  background-color: #bf35d8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: "Poppins";
+}
+/* Main  Hero*/
+/* If you want the background image to cover the entire element, you can set the background-size property to cover. */
+
+/* Also, to make sure the entire element is always covered, set the background-attachment property to fixed: */
+
+/* This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions): */
+body {
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.hero-heading {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  width: 700px;
+  text-align: center;
+}
+.hero-description {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  width: 700px;
+  text-align: center;
+  margin-top: 15px;
+}
+.button-large {
+  padding: 10px 30px;
+  border: none;
+  background-color: #bf35d8;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  font-family: "Poppins";
+  margin-top: 50px;
+}
+
+button:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
